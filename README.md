@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `yarn`
+安装依赖
+
 ### `yarn start`
 启动
 
@@ -29,7 +32,7 @@ In the project directory, you can run:
 
 不可变数据结构：[immer](https://github.com/immerjs/immer)
 
-基础UI组件库：[antd-mobile](https://github.com/ant-design/ant-design-mobile)
+基础UI组件库：暂无
 
 css：[sass](https://www.sass.hk/)、[css module](https://github.com/css-modules/css-modules)、
 [classnames](https://github.com/JedWatson/classnames)
@@ -46,7 +49,7 @@ css：[sass](https://www.sass.hk/)、[css module](https://github.com/css-modules
 代码风格
 ：[eslint](https://github.com/eslint/eslint)、[prettier](https://github.com/prettier/prettier)
 
-vs code插件：[eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+vs code插件：[eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)、 [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)、 [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 工程化：[husky](https://github.com/typicode/husky)、
 [pre-commit](https://github.com/pre-commit/pre-commit)、

@@ -1,10 +1,5 @@
 /* 此文件放scss工具函数 */
 
-// 750设计稿px转rem
-@function px2rem($px) {
-  @return $px * 1rem / 100;
-}
-
 /*文本格式化，超出范围，显示省略号*/
 @mixin text-overflow($width: 100%, $display: block) {
   width: $width;
@@ -12,11 +7,6 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-}
-
-@mixin width-height($width, $height) {
-  width: $width;
-  height: $height;
 }
 
 /* 圆形盒子 */
