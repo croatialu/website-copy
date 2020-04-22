@@ -1,20 +1,13 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
-const {
-  override,
-  fixBabelImports,
-  addWebpackAlias,
-  addPostcssPlugins,
-} = require('customize-cra');
-const pxtorem = require('postcss-pxtorem');
+const { override, fixBabelImports, addWebpackAlias } = require('customize-cra');
 const path = require('path');
 
 module.exports = override(
-  addPostcssPlugins([
-    pxtorem({
-      rootValue: 50,
-      propWhiteList: []
-    })
-  ]),
+  fixBabelImports('import', {
+    libraryName: 'antd',
+    libraryDirectory: 'es',
+    style: 'css'
+  }),
   addWebpackAlias({
     '@src': path.resolve(__dirname, './src'),
     '@components': path.resolve(__dirname, './src/components'),
