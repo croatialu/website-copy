@@ -1,0 +1,26 @@
+{
+    "version": "0.1",
+    "language": "en",
+    "words": [
+        "antd",
+        "browserslist",
+        "catlist",
+        "commitlint",
+        "eqeqeq",
+        "esnext",
+        "immer",
+        "onstatechange",
+        "onupdatefound",
+        "precached",
+        "prettierrc",
+        "pxtorem",
+        "qunti",
+        "testid",
+        "themeify",
+        "verifycode",
+        "webfonts"
+    ],
+    "flagWords": [
+        "hte"
+    ]
+}
