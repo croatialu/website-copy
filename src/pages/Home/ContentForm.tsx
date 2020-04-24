@@ -26,7 +26,14 @@ const ContentForm = () => {
       <Tabs defaultActiveKey="1" size="small" style={{ height: 300 }} type="card">
         <TabPane tab="开仓" key="1" className="pl12">
           <div className="df jsb">
-            <div />
+            <div>
+              <Radio.Group size="small">
+                <Space>
+                  <Radio.Button value="large">{withTooltip('限价委托')}</Radio.Button>
+                  <Radio.Button value="default">{withTooltip('计划委托')}</Radio.Button>
+                </Space>
+              </Radio.Group>
+            </div>
             <div>
               <Space>
                 {withTooltip('全仓')}

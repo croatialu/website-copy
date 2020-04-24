@@ -13,9 +13,6 @@ jobs:
       - name: Lint
         run: |
           npm run lint
-      - name: Test
-        run: |
-          npm run test -- --watchAll=false
       - name: Build
         run: |
           PUBLIC_URL=./ npm run build

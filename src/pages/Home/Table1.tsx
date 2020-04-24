@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Tabs, Space, Radio, Checkbox, Select, Input, Button } from 'antd';
+import { Table, Tabs, Space, Checkbox, Select, Input, Button } from 'antd';
 import classNames from 'classnames';
 
 const { TabPane } = Tabs;
