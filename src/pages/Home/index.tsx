@@ -3,9 +3,14 @@ import classnames from 'classnames';
 import style from './style.module.scss';
 import { Layout } from 'antd';
 import LeftSider from './LeftSider';
+import RightSider from './RightSider';
 import ContentForm from './ContentForm';
 
-const { Sider, Content } = Layout;
+import Table1 from './Table1';
+import Table2 from './Table2';
+import Table3 from './Table3';
+
+const { Content } = Layout;
 
 const Home: React.FC<{}> = () => {
   return (
@@ -16,10 +21,12 @@ const Home: React.FC<{}> = () => {
           图表
           <ContentForm />
         </Content>
-        <Sider theme="light" width="240">
-          right sidebar
-        </Sider>
+        <RightSider />
       </Layout>
+
+      <Table1 className="bg-color-white mt12" />
+      <Table2 className="bg-color-white mt12" />
+      <Table3 className="bg-color-white mt12" />
     </div>
   );
 };
